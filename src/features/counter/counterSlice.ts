@@ -25,6 +25,7 @@ export const incrementAsync = createAsyncThunk(
     return response.data;
   }
 );
+console.log(incrementAsync);
 
 export const counterSlice = createSlice({
   name: 'counter',
